@@ -1,4 +1,4 @@
 module WackyCanvas
-  module CanvasHelper
+  module SessionsHelper
   end
 end

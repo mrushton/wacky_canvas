@@ -1,7 +1,7 @@
 <script>
-  var oauth_url = 'https://www.facebook.com/dialog/oauth/';
+  var oauth_url = 'https://www.facebook.com/dialog/oauth';
   oauth_url += '?client_id=<%= @app_id -%>';
-  oauth_url += '&redirect_uri=' + encodeURIComponent('https://apps.facebook.com/<%= @app_namespace -%>');
+  oauth_url += '&redirect_uri=' + encodeURIComponent('http://apps.facebook.com/<%= @app_namespace + @redirect_path -%>');
 <%- if !@app_scope.nil? -%>
   oauth_url += '&scope=<%= @app_scope -%>'
 <%- end -%>

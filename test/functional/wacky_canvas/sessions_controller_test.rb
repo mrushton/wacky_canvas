@@ -1,7 +1,7 @@
 require 'test_helper'
 
 module WackyCanvas
-  class ViewTest < ActiveSupport::TestCase
+  class SessionsControllerTest < ActionController::TestCase
     # test "the truth" do
     #   assert true
     # end

@@ -1,3 +1,3 @@
 WackyCanvas::Engine.routes.draw do
-  match "/authorize" => "canvas#authorize", :via => [:get, :post]
+  match 'session/new', :to => 'sessions#new', :via => [:get, :post], :as => 'new_session'
 end

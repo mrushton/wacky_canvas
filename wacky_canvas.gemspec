@@ -7,11 +7,11 @@ require "wacky_canvas/version"
 Gem::Specification.new do |s|
   s.name        = "wacky_canvas"
   s.version     = WackyCanvas::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of WackyCanvas."
-  s.description = "TODO: Description of WackyCanvas."
+  s.authors     = ["Matt Rushton"]
+  s.email       = ["mrushton7@yahoo.com"]
+  s.homepage    = "http://www.wackywordsfriends.com"
+  s.summary     = "Rails 3 engine gem for Facebook canvas app authorization."
+  s.description = "Wacky Canvas is a Rails 3 engine gem extracted from Wacky Words Friends for handling Facebook canvas app authorization. It records various stats for easy testing of new ideas and features."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
